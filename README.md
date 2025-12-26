@@ -72,4 +72,30 @@ MITRE ATT&CK mapping applied
 
 Successful sudo to root
 
+
+### Scenario 1: Malware Detection (ClamAV)
+![Malware Detection](screenshots/malware.png)
+This alert shows the detection of a malicious file (EICAR test file) by ClamAV.
+The event was analyzed and mapped to MITRE ATT&CK technique T1204.
+
+### Scenario 2: Host-Based Anomaly Detection
+![Host-Based Anomaly Detection](screenshots/anomaly.png)
+This alert shows an abnormal activity detected on the endpoint (kali-agent) by Wazuh.
+It demonstrates behavioral anomaly detection in action.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Root session opened
